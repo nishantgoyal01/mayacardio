@@ -1,0 +1,19 @@
+# Basic dependencies for device and cloud
+
+# Device side
+psutil==5.9.8
+# FastAPI for the cloud server (also usable for client validation)
+fastapi==0.110.0
+uvicorn[standard]==0.30.0
+# HTTP client (httpx) for reliable async uploads
+httpx==0.27.0
+# SQLite is in the stdlib, no extra package needed
+
+# Cloud side (PostgreSQL driver)
+psycopg2-binary==2.9.9
+
+# Environment loader for .env files
+python-dotenv==1.0.1
+
+# Test framework
+pytest==8.2.2

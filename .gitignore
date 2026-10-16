@@ -1,0 +1,54 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# Environment variable files
+.env
+.env.*
+
+# SQLite databases (including WAL files)
+*.db
+*.sqlite3
+*.sqlite
+*.db-wal
+*.db-shm
+
+# Build / distribution artifacts
+build/
+_dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+pip-wheel-metadata/
+wheelhouse/
+
+# IDE / editor specific files
+.vscode/
+.idea/
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Test and runtime artifacts
+artifacts/
+.logs/
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Miscellaneous temporary files
+*~
+*.bak
+*.tmp
+*.swp
