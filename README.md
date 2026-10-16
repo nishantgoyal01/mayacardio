@@ -110,7 +110,7 @@ Error codes follow standard conventions (non‑zero exit on failure, messages pr
 ## Setup & Installation
 1. **Clone the repository**
    ```bash
-   git clone <repo‑url>
+   git clone https://github.com/nishantgoyal01/mayacardio
    cd mayacardio
    ```
 2. **Create a virtual environment**
